@@ -1,0 +1,18 @@
+.button {
+    padding: 16px;
+    border: 0;
+    background-color: #d97a09;
+    transition: background-color .2s;
+    color: white;
+    font: inherit;
+    border-radius: 5px;
+  
+    &:focus, &:hover {
+      background-color: #9b5c02;
+    }
+  
+    &:active {
+      transform: translate(1px, 1px);
+    }
+  }
+  
